@@ -16,7 +16,13 @@ body {
 }
 
 header {
-  text-align: center;
+  header {
+    padding: 20px 0;
+    margin-bottom: 30px;
+    background-color: #1a237e;
+    color: white;
+    border-radius: 5px;
+  }
   padding: 20px 0;
   margin-bottom: 30px;
   background-color: #1a237e;
