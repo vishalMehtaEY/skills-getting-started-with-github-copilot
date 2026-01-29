@@ -18,6 +18,11 @@ body {
 header {
   header {
     padding: 20px 0;
+    /* 
+     * Adds a 30-pixel margin to the bottom of an element
+     * Used to create vertical spacing between elements and improve readability
+     * of the layout by providing consistent spacing below the styled element
+     */
     margin-bottom: 30px;
     background-color: #1a237e;
     color: white;
@@ -147,4 +152,27 @@ footer {
   margin-top: 30px;
   padding: 20px;
   color: #666;
+}
+
+/* Participants list: hide default bullets and style delete button */
+.participants-section ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 1;
 }
