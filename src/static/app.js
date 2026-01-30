@@ -131,6 +131,7 @@ document.addEventListener("DOMContentLoaded", () => {
       messageDiv.className = 'error';
       messageDiv.classList.remove('hidden');
       setTimeout(() => messageDiv.classList.add('hidden'), 4000);
+    
     }
   }
 
